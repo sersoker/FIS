@@ -1,0 +1,30 @@
+PELICULA:
+-BuscarPelicula(idPelicula)
+-CompararFechaEstreno(fechaEstreno)
+-ModificaFechaEstreno(fechaEstreno)
+-vincularTrailer(miTrailer)
+
+DECINE EXCEPTION:
+-[miPeli is null] crea ("La pelicula no está dada de alta")
+-[fechaEstreno] crea ("La película ya está estrenada")
+-[miPremio] crea ("El premio ya está registrado")
+-[premioFestival is null] crea ("No existe Premio Festival de esta película")
+-[existeVideo] crea ("El video ya está asignado")
+
+DISTRIBUCION:
+-crea (idPelicula, soporte, fecha, calidad, descripcion, tipo, precio, web)
+
+
+PREMIO:
+-BuscaPremio(idPremio)
+-crea(idPelicula, idPremio, categoria, año)
+
+PREMIO FESTIVAL:
+-BuscaPremioFestival(idPremio)
+-vincularPremioFestival(idPremio)
+
+TRAILER:
+-BuscarTodosLosTrailers()
+-BuscarVideo(video)
+-crea(idPelicula, video, enlaceAVideo, comentario)
+

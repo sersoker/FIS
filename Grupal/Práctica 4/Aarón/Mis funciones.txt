@@ -1,0 +1,28 @@
+:DeCine
+buscarCine(idCine : Int)
+eliminarCine(idCine : Int)
+crearSesion(idSesion : Int, idCine : Int, idSala : Int ,diaSemana : String, hora : Time)
+eliminarSesion(idSesion : Int)
+buscarPelicula(idPelicula : Int)
+consultarProgramacion(idPelicula : int ,criterioConsulta : int)   //criterioConsulta = { idCiudad,idCine }
+:DeCineExcepcion
+:Sala
+eliminarSesion(idSesion : Int)
+buscarDiaSemana(diaSemana : String)
+listarSesiones()
+buscarSesion(idSesion : Int)
+añadirResultado(numero : Int)
+añadirResultado(nombre : String)
+:Cine
+listarSalas()
+buscarSala(idSala : Int)
+buscarPelicula(idPelicula : Int)
+añadirResultado(nombre : String, direccion : String)
+:Sesion
+AñadirResultado(hora : Time)
+:DiaSemana
+eliminarSesion(idSesion : Int)
+:Pelicula
+eliminarDiaSemana(DiaSemana : String)
+nuevoDiaSemana(DiaSemana : String)
+buscaSesiones(idPelicula : Int)

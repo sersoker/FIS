@@ -1,0 +1,34 @@
+﻿Javi:
+-nuevaPelicula 
+-nuevoDirectorPelicula
+-nuevoActorPelicula
+-nuevoGeneroPelicula
+-infoPelícula = consultarPelícula(idPelícula)
+
+
+Sisi:
+-nuevoTrailer
+-nuevoPremio
+-nuevoEstreno
+-nuevaDistribucion
+
+
+Bryan:
+-aceptarAlta
+-resultadoBusqueda= busquedaPelicula(criterioBusqueda)
+-resultadoConsulta=consultaCartelera(criterioConsulta)
+-puntuarPelicula
+
+
+Migue:
+-propuestaNuevaPelícula
+-criticaPelicula
+-nuevoCine
+-nuevaSala
+
+
+Aaron:
+-bajaCine
+-nuevaSesion
+-bajaSesion
+-infoSesiones= consultarProgramacion(idPelicula, criteriosConsulta)

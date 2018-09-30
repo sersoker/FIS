@@ -1,0 +1,35 @@
+Critica
+criticaPelicula(tituloCritica, fechaHoy, comentario)
+
+Peliculas
+buscaPeli(idPelicula)
+
+UsuariosVip
+buscarUsuario(idUsuario)
+
+Cines
+buscaCine(idCine)
+incluirCine(miCine)
+
+miSala: Sala
+crearSala(idCine, numero, nombre)
+
+Salas
+buscaSala(numero, nombre)
+
+Ciudades
+buscaCiudad(ciudad)
+
+Provincias
+buscaProvincia(provincias)
+
+miCine:Cine
+cambiaAtributos(nombre, direccion, telefono)
+
+nuevaPeli:Pelicula
+añade(usuarioV, comentario)
+Pelicula(titulo, tituloOriginal, fechaEstreno, duracion, guion, musica, pais, webOficial, productora, sinopsis, recaudacion)
+
+:Añadida
+añadida(usuarioV, comentario, fechaHoy)
+
